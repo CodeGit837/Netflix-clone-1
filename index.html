@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          alt="Netflix Logo"
+          class="logo"
+        />
+      </div>
+      <div class="navbar-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">TV Shows</a>
+        <a href="#" class="nav-link">Movies</a>
+        <a href="#" class="nav-link">New & Popular</a>
+        <a href="#" class="nav-link">My List</a>
+      </div>
+      <div class="navbar-right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          alt="Profile"
+          class="profile-icon"
+        />
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Stranger Things</h1>
+        <p class="hero-description">
+          When a young boy vanishes, a small town uncovers a mystery involving
+          secret experiments, terrifying supernatural forces and one strange
+          little girl.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-play"><i class="fas fa-play"></i> Play</button>
+          <button class="btn btn-more-info">
+            <i class="fas fa-info-circle"></i> More Info
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Movie Rows -->
+    <div class="container">
+      <!-- Only on Netflix Section -->
+      <section class="content-section">
+        <h2 class="section-title">Only on Netflix</h2>
+        <div class="content-row">
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=300&h=170&fit=crop"
+              alt="When Life Gives You Tangerines"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">When Life Gives You Tangerines</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=170&fit=crop"
+              alt="The Royals"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="top-badge">TOP 10</div>
+            <div class="card-title">The Royals</div>
+            <div class="recently-added">Recently added</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+                <div class="top-badge">TOP 10</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">The Royals</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-14</div>
+                  <div class="info-badge">4 Seasons</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-genres">
+                  <span class="genre">Drama</span>
+                  <span class="genre">Romance</span>
+                  <span class="genre">Political</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card large-card">
+            <img
+              src="https://images.unsplash.com/photo-1489599088097-7cd49fe0060e?w=400&h=170&fit=crop"
+              alt="Money Heist"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="top-badge">TOP 10</div>
+            <div class="card-title large-title">MONEY HEIST</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+                <div class="top-badge">TOP 10</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">MONEY HEIST</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">A</div>
+                  <div class="info-badge">5 Parts</div>
+                  <div class="info-badge">HD</div>
+                </div>
+                <div class="overlay-genres">
+                  <span class="genre">Suspenseful</span>
+                  <span class="genre">Exciting</span>
+                  <span class="genre">Thriller</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=170&fit=crop"
+              alt="Stranger Things"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="card-title">STRANGER THINGS</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1618945524163-32451704cbb8?w=300&h=170&fit=crop"
+              alt="Squid Game"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="new-season">New Season</div>
+            <div class="coming-soon">Coming Soon</div>
+            <div class="card-title">SQUID GAME</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=170&fit=crop"
+              alt="Weak Hero"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="card-title">WEAK HERO</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=170&fit=crop"
+              alt="Kingdom"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="card-title">Kingdom</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Searches Section -->
+      <section class="content-section">
+        <h2 class="section-title">Top Searches</h2>
+        <div class="content-row">
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1578928269638-2c7867a16f80?w=300&h=170&fit=crop"
+              alt="Hit: The Third Case"
+            />
+            <div class="top-badge">TOP 10</div>
+            <div class="card-title">
+              HIT<br /><span class="subtitle">THE THIRD CASE</span>
+            </div>
+            <div class="recently-added">Recently added</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=170&fit=crop"
+              alt="Retro"
+            />
+            <div class="top-badge">TOP 10</div>
+            <div class="card-title">RETRO</div>
+            <div class="recently-added">Recently added</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=170&fit=crop"
+              alt="The Diplomat"
+            />
+            <div class="top-badge">TOP 10</div>
+            <div class="card-title">THE DIPLOMAT</div>
+            <div class="recently-added">Recently added</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1489599088097-7cd49fe0060e?w=300&h=170&fit=crop"
+              alt="Skandar"
+            />
+            <div class="top-badge">TOP 10</div>
+            <div class="card-title">SKANDAR</div>
+            <div class="recently-added">Recently added</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=170&fit=crop"
+              alt="Chhaava"
+            />
+            <div class="top-badge">TOP 10</div>
+            <div class="card-title">CHHAAVA</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=300&h=170&fit=crop"
+              alt="Friends"
+            />
+            <div class="card-title">FRIENDS</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Teen TV Shows Section -->
+      <section class="content-section">
+        <h2 class="section-title">Teen TV Shows</h2>
+        <div class="content-row">
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=170&fit=crop"
+              alt="The Vampire Diaries"
+            />
+            <div class="card-title">The Vampire Diaries</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=170&fit=crop"
+              alt="True Beauty"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="card-title">TRUE BEAUTY</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1618945524163-32451704cbb8?w=300&h=170&fit=crop"
+              alt="All of Us Are Dead"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="card-title">ALL OF US ARE DEAD</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=170&fit=crop"
+              alt="My Life with the Walter Boys"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="card-title">MY LIFE WITH THE WALTER BOYS</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=170&fit=crop"
+              alt="Wednesday"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="card-title">WEDNESDAY</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=170&fit=crop"
+              alt="When I Fly Towards You"
+            />
+            <div class="card-title">When I Fly Towards You</div>
+          </div>
+
+          <div class="content-card">
+            <img
+              src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=300&h=170&fit=crop"
+              alt="Never Have I Ever"
+            />
+            <div class="netflix-badge">N</div>
+            <div class="card-title">Never Have I Ever</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-top">
+          <div class="social-links">
+            <a href="#" class="social-link"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Audio Description</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Legal Notices</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Cookie Preferences</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Corporate Information</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Media Center</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <button class="service-code">Service Code</button>
+          <p class="copyright">© 1997-2024 Netflix, Inc.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

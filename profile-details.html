@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix - Account</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="profile-details.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="profile-details-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          alt="Netflix Logo"
+          class="logo"
+        />
+      </div>
+      <div class="navbar-right">
+        <a href="index.html" class="back-to-browse">Back to Browse</a>
+      </div>
+    </nav>
+
+    <!-- Profile Details Section -->
+    <div class="profile-details-container">
+      <div class="profile-header">
+        <div class="profile-avatar-large">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+            alt="Profile Avatar"
+          />
+        </div>
+        <div class="profile-info">
+          <h1 class="profile-name">John Doe</h1>
+          <p class="profile-email">johndoe@example.com</p>
+          <div class="membership-info">
+            <span class="membership-badge">Premium</span>
+            <span class="membership-details">4K + HDR</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-sections">
+        <!-- Account Settings -->
+        <section class="profile-section">
+          <h2>Account Settings</h2>
+          <div class="settings-grid">
+            <div class="setting-item">
+              <div class="setting-header">
+                <h3>Membership & Billing</h3>
+                <button class="btn-change">Change plan</button>
+              </div>
+              <p class="setting-details">Premium Plan - $19.99/month</p>
+              <p class="setting-details">Next billing date: March 15, 2024</p>
+            </div>
+
+            <div class="setting-item">
+              <div class="setting-header">
+                <h3>Profile & Parental Controls</h3>
+                <button class="btn-change">Manage</button>
+              </div>
+              <p class="setting-details">Profile 1 (You)</p>
+              <p class="setting-details">All Maturity Ratings</p>
+            </div>
+
+            <div class="setting-item">
+              <div class="setting-header">
+                <h3>Security & Privacy</h3>
+                <button class="btn-change">Manage</button>
+              </div>
+              <p class="setting-details">Password: ********</p>
+              <p class="setting-details">Two-factor authentication: Off</p>
+            </div>
+          </div>
+        </section>
+
+    <script src="profile-details.js"></script>
+  </body>
+</html>
